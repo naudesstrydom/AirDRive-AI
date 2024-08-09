@@ -1,4 +1,4 @@
-name: belullama
+name: AirDrive AI
 services:
   ollama:
     cpu_shares: 90
@@ -85,4 +85,4 @@ x-casaos:
   tips:
     custom: sudo lsof -i :11434
   title:
-    custom: Belullama
+    custom: AirDrive AI
