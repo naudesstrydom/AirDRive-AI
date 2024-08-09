@@ -16,7 +16,7 @@ services:
         - ollama --version || exit 1
     image: ollama/ollama:latest
     labels:
-      icon: https://raw.githubusercontent.com/ai-joe-git/Belullama/main/icon.png
+      icon: https://github.com/naudesstrydom/AirDRive-AI/blob/main/icon.png
     ports:
       - target: 11434
         published: "11434"
@@ -50,7 +50,7 @@ services:
       - 8080/tcp
     image: ghcr.io/ai-joe-git/open-webui:latest
     labels:
-      icon: https://raw.githubusercontent.com/ai-joe-git/Belullama/main/icon.png
+      icon: https://github.com/naudesstrydom/AirDRive-AI/blob/main/icon.png
     ports:
       - target: 8080
         published: "8080"
@@ -74,14 +74,14 @@ x-casaos:
   hostname: ""
   icon: https://raw.githubusercontent.com/ai-joe-git/Belullama/main/icon.png
   screenshot_link:
-    - https://raw.githubusercontent.com/ai-joe-git/Belullama/main/screenshot-1.png
-    - https://raw.githubusercontent.com/ai-joe-git/Belullama/main/screenshot-2.png
+    - https://github.com/naudesstrydom/AirDRive-AI/blob/main/screenshot-1.png
+    - https://github.com/naudesstrydom/AirDRive-AI/blob/main/screenshot-2.png
   index: /
   is_uncontrolled: false
   port_map: "8080"
   scheme: http
   store_app_id: Belullama
-  thumbnail: https://raw.githubusercontent.com/ai-joe-git/Belullama/main/thumbnail.png
+  thumbnail: https://github.com/naudesstrydom/AirDRive-AI/blob/main/thumbnail.png
   tips:
     custom: sudo lsof -i :11434
   title:
